@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+
+<!-- web.xml is needed to configure web server -->
+<!-- how server should retrieve requests and what server should do-->
+<!-- In our case web server will send all the requests to the Dispatcher servlet-->
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://xmlns.jcp.org/xml/ns/javaee"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
